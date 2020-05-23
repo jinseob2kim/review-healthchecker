@@ -43,14 +43,10 @@ layout: true
 
 * 산업안전보건법에 언급된 건강평가로 뇌심혈관질환 발생위험도 평가와 더불어 **직무스트레스/감정노동 평가**, **근골격계 유해요인 조사** 가 있다. 
 
+* 치매검사로 MMSE 가 있다.
+
 ]
 
-
----
-
-class: center, middle
-
-# 직무스트레스/감정노동평가
 
 
 ---
@@ -123,14 +119,7 @@ include_graphics("fig/point_emotion.png")
 
 
 ---
-
-class: center, middle
-
-# 근골격계 유해요인
-
-
----
-# 배경 
+# 근골격계 유해요인 조사  
 
 사업주의 의무 
 
@@ -140,6 +129,18 @@ http://www.kosha.or.kr/kosha/data/guidanceH.do?mode=download&articleNo=263228&at
 
 http://kras.kosha.or.kr/health/health_tab04
 
+
+
+---
+
+# 치매: MMSE-K
+
+
+```{r, out.width="45%", fig.align = "center"}
+include_graphics("fig/mmse.png")
+```
+
+**24점 이상 정상**, 20-23점 의심, 19점 이하 전문의 확진 필요
 
 ---
 
