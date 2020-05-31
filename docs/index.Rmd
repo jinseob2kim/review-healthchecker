@@ -39,13 +39,13 @@ layout: true
 
 # Executive Summary 
 
-* 스트레스: **직무스트레스/감정노동 평가**
+* 스트레스: 직무스트레스/감정노동 평가
 
 * 치매: MMSE-K
 
 * 눈: 6대 안질환 자가진단
 
-* 치아: 잇목(PQ) 건강지수
+* 치아: 잇몸(PQ) 건강지수
 
 * 수면: 앱워스 졸음증 척도
 
@@ -102,8 +102,6 @@ include_graphics("fig/man.png")
 ```{r, out.width="60%", fig.align = "center"}
 include_graphics("fig/woman.png")
 ```
-
-
 
 
 ---
