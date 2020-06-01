@@ -57,7 +57,9 @@ layout: true
 
 * 골다공증: 골절위험도 평가(FRAX) 
 
+* 간: 섬유화지표(FIB-4, NAFLD)
 
+* 콩팥: 추정사구체여과율(eGFR)
 
 
 ---
@@ -236,6 +238,25 @@ include_graphics("https://health.cdc.go.kr/health/download/getResource.do?type=3
 include_graphics("https://t1.daumcdn.net/cfile/tistory/241D8C495493ADA529")
 ```
 
+---
+# 간 섬유화 지표 
+
+- [Fibrosis-4 (FIB-4) Index](https://www.mdcalc.com/fibrosis-4-fib-4-index-liver-fibrosis)
+- [NAFLD (Non-Alcoholic Fatty Liver Disease) Fibrosis Score](https://www.mdcalc.com/fibrosis-4-fib-4-index-liver-fibrosis)
+
+```{r, out.width="65%", fig.align = "center"}
+include_graphics("fig/liver.png")
+```
+
+---
+# 콩팥: 추정사구체여과율(eGFR)
+
+- 나이, 성별, 혈청 크레아티닌(Cr, 건강검진항목) 만 가지고 콩팥의 여과기능을 추정.(MDRD 방식)
+- http://www.ksn.or.kr/sub10/sub_n_03.html, https://www.mdcalc.com/mdrd-gfr-equation
+
+```{r, out.width="100%", fig.align = "center"}
+include_graphics("https://kidneyfoundation.cachefly.net/professionals/KDOQI/guidelines_ckd/Gif_File/kck_t48.gif")
+```
 
 
 ---
