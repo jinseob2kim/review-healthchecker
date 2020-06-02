@@ -402,6 +402,78 @@ include_graphics("fig/hcc.png")
 
 class: center, middle
 
+# 건강나이 계산 
+
+
+---
+# 공단에서 직접 제공 
+
+https://hi.nhic.or.kr/ 에서 본인의 건강나이를 얻을 수 있음.
+
+- 계산로직은 설명없음, 심뇌혈관질환 위험도 기반일 것임.
+
+```{r, out.width="70%", fig.align = "center"}
+include_graphics("https://t1.daumcdn.net/cfile/tistory/216C654A52AEDD3A08")
+```
+
+
+---
+# 예상 계산로직
+
+[2017년 보건복지부 용역보고서](http://www.ndsl.kr/ndsl/search/detail/report/reportSearchResultDetail.do?cn=TRKO201900000199) 에 로직이 나와있음. 공단의 그것과 동일한지는 모름.
+
+
+1. 심뇌혈관질환 위험도 기반.
+
+2. 남/녀 연령별 **10년 절대위험도 통계값이 이미 존재**.
+
+3. 예측모형 이용 **개인의 상대위험도 계산**하고, **인구평균의 위험도**와 곱하면 **절대위험도** 얻음.
+
+4. 얻은 절대위험도 수치가 **2에서 어느 나이의 절대위험도와 같은지**를 찾아냄. 그 나이가 건강나이 
+
+
+---
+
+```{r, out.width="60%", fig.align = "center"}
+include_graphics("fig/abrisk.png")
+```
+
+---
+
+```{r, out.width="80%", fig.align = "center"}
+include_graphics("fig/meanrr.png")
+```
+
+---
+
+```{r, out.width="60%", fig.align = "center"}
+include_graphics("fig/rr.png")
+```
+
+---
+
+```{r, out.width="60%", fig.align = "center"}
+include_graphics("fig/ex1.png")
+```
+
+
+---
+
+```{r, out.width="60%", fig.align = "center"}
+include_graphics("fig/ex2.png")
+```
+
+
+---
+
+```{r, out.width="60%", fig.align = "center"}
+include_graphics("fig/ex3.png")
+```
+
+---
+
+class: center, middle
+
 # END
 
 
